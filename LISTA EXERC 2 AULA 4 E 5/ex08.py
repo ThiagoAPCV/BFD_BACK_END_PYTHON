@@ -1,0 +1,8 @@
+total_itens = 25
+total_cestas = 4
+
+itens_por_cesta = total_itens // total_cestas   # divisão inteira
+itens_restantes = total_itens % total_cestas   # resto da divisão
+
+print(f"Itens por cesta: {itens_por_cesta}")
+print(f"Itens restantes: {itens_restantes}")
